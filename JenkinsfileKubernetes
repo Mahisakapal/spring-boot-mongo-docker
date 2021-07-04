@@ -33,6 +33,7 @@ node{
 	 
 	  /**
       stage("Deploy To Kuberates Cluster"){
+        sh "kubectl get pod"
         sh 'kubectl apply -f springBootMongo.yml'
       } **/
      
