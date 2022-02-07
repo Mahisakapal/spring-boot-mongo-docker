@@ -11,4 +11,4 @@ ENV PROJECT_HOME /opt/app
 #WORKDIR $PROJECT_HOME
 
 #CMD ["java" ,"-jar","./spring-boot-mongo.jar"] remove hash when u run it 
-CMD["sleep","500000"]
+CMD ["sleep","500000"]
