@@ -6,9 +6,9 @@ FROM openjdk:8-alpine
 RUN mkdir -p /opt/app
 ENV PROJECT_HOME /opt/app
 
-#COPY target/spring-boot-mongo-1.0.jar $PROJECT_HOME/spring-boot-mongo.jar
+COPY target/spring-boot-mongo-1.0.jar $PROJECT_HOME/spring-boot-mongo.jar
 
-#WORKDIR $PROJECT_HOME
+WORKDIR $PROJECT_HOME
 
 #CMD ["java" ,"-jar","./spring-boot-mongo.jar"] remove hash when u run it 
-CMD ["sleep","500000"]
+
